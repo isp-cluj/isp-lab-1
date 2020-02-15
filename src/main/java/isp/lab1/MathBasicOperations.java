@@ -1,4 +1,4 @@
-package lab.template;
+package isp.lab1;
 
 
 import java.util.logging.Logger;
@@ -6,9 +6,9 @@ import java.util.logging.Logger;
 /**
  * @author mihai.hulea
  */
-public class Example {
+public class MathBasicOperations {
 
-    public static Logger LOG = Logger.getLogger( Example.class.getName() );
+    public static Logger LOG = Logger.getLogger( MathBasicOperations.class.getName() );
 
     /**
      * Add x and y.
@@ -30,6 +30,6 @@ public class Example {
         System.out.println("Number of arguments received: "+args.length+" ");
         for(String arg:args)
             System.out.println("Argument: "+arg);
-        System.out.printf("Result of adding %d with %d is: %d\n\n",10,23,Example.add(10,23));
+        System.out.printf("Result of adding %d with %d is: %d\n\n",10,23, MathBasicOperations.add(10,23));
     }
 }
