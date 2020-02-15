@@ -46,9 +46,5 @@ Pentru a genera documentatia proiectului se va executa comanda:
 
     mvn javadc:javadoc
    
-## Uneltele laborator ISP
-
-![GitHub Logo](docs/ClassDiagram1.jpg)
-     
 
 
