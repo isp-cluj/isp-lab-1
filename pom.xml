@@ -36,6 +36,16 @@
     </properties>
 
     <dependencies>
+
+        <!-- Dependency to check java code style g
+
+        <dependency>
+            <groupId>com.puppycrawl.tools</groupId>
+            <artifactId>checkstyle</artifactId>
+            <version>10.7.0</version>
+        </dependency>
+        --!>
+
         <!-- Everyone needs a logger -->
         <dependency>
             <groupId>org.slf4j</groupId>

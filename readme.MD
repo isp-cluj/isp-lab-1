@@ -44,7 +44,7 @@ Alternativ, comenzile anterioare pot fi rulate utilizand mvn wrapper (https://gi
 
 Pentru a genera documentatia proiectului se va executa comanda:
 
-    mvn javadc:javadoc
+    mvn javadoc:javadoc
    
 
 
